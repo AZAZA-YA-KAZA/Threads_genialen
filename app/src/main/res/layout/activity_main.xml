@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/ED1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Введите текст 1"></EditText>
+    <EditText
+        android:id="@+id/ED2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Введите текст 2"></EditText>
+    <EditText
+        android:id="@+id/ED3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Введите текст 3"></EditText>
+    <Button
+        android:id="@+id/BT"
+        android:text="run"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"></Button>
+    <TextView
+        android:id="@+id/TV"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:hint="Тут будет напечатан текст"></TextView>
+
+</LinearLayout>
